@@ -2,7 +2,7 @@
 A minimal Flask server serving static HTML pages that deploys seamlessly to Google AppEngine, no troubleshooting needed. It also comes with a minimal HTML template skeleton in [Jinja](https://jinja.palletsprojects.com/).  
 This skeleton complies with GAE's format although it won't run you through their instructions to set up a GAE's project.
 
-See a [live example](https://moonlit-academy-273207.appspot.com) of this template.
+See a [live example](https://moonlit-academy-273207.appspot.com) of this template running on GAE.
 
 ## Price of running on GAE
 [As of April 2020, and purely informative]
