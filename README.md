@@ -3,8 +3,9 @@ A minimal Flask server serving static HTML pages that deploys seamlessly to Goog
 This skeleton complies with GAE's format although it won't run you through their instructions to set up a GAE's account, the process is well detailed on their page.
 
 ## Price of running on GAE
+[As of April 2020, and purely informative]
 
-As of April 2020, GAE runs your server for FREE as long as you are under a million visits a day or so. You only need to purchase the domain name, and that's optional if you can be content with PROJECTNAME.appspot.com.  
+GAE runs your server for FREE as long as you are under a million visits a day or so. You only need to purchase the domain name, and that's optional if you can be content with PROJECTNAME.appspot.com.  
 You would need to pay ($1 a month) if you want Gmail to host the emails for your domain.
 
 
