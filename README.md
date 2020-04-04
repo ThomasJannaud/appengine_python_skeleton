@@ -15,7 +15,7 @@ Run your server locally. When you are happy with the result, deploy to Google Ap
 
 ## Install
 
-Install part, one time only.
+One time only install.
 
 ```
 git clone https://github.com/ThomasJannaud/appengine_python_skeleton.git
