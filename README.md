@@ -1,9 +1,11 @@
-Minimal skeleton for a Python server on Google App Engine ("GAE")
+# Google AppEngine: Minimal skeleton of a Python server
 
-GAE can run Flask servers. Most of this skeleton consists in a minimal Flask server for you to customize.
-Edit the webpages in the Templates/ folder and style them in the static/ folder.
+Most of this skeleton consists in a minimal Flask server for you to customize.  
+Edit the webpages in the Templates/ folder and style them in the static/ folder.  
+Change the logic in page_handler.py to serve more urls.
 
-#Run locally
+## Run locally
+
 git clone https://github.com/ThomasJannaud/appengine_python_skeleton.git
 python -m venv env
 source env/bin/activate
@@ -16,7 +18,8 @@ The server is now running on localhost:8080. Just navigate to either one of:
 - localhost:8080/contact
 
 
-#Deploy
+## Deploy
+
 You need to have a GAE account and create a project there.
 Your website will be hosted on https://PROJECTNAME.appspot.com but if you own a domain you can point it to this host.
 
