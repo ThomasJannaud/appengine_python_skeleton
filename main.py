@@ -9,10 +9,20 @@ import page_handler
 
 logging.getLogger().setLevel(logging.INFO)
 
+"""
+example of handling POST methods
+@app.route('/url-for-post', methods=['POST'])
+def handleForPOSTMethod():
+  return some_handler.FooHandler()
+"""
+
+# <path:path> only captures non empty path, so we exceptionnaly need to add this additional route,
+# but under the hood it's all the same.
 @app.route('/')
 def handleHome():
   return page_handler.StaticPageHandler('/')
 
+# handles all urls except '/'
 @app.route('/<path:path>')
 def handle(path):
   return page_handler.StaticPageHandler('/' + path)
