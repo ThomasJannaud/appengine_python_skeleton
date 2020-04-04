@@ -31,7 +31,7 @@ The server is now running on localhost:8080. Just navigate to either one of:
 - localhost:8080?name=Thomas
 - localhost:8080/contact
 
-On the next runs, you only need `python main.py`. The nice thing about Flask is that you can update your HTML templates or your Python code and Flask should take the changes into account without restarting the server.
+The nice thing about Flask is that you can update your HTML templates or your Python code and Flask should take the changes into account without restarting the server.
 
 
 ## Deploy
