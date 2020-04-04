@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block title %}Home Page{% endblock %}
+
+{% block content %}
+
+{% if name %}
+<p>Hello {{name}}</p>
+{% endif %}
+
+<p>This is the home page.</p>
+
+{% if not name %}
+<p>Try with <a href="/?name=yourname">?name=your_name</a> in the url.</p>
+{% endif %}
+
+<img id="home_img" src="/static/images/sun.png"/>
+
+{% endblock %}

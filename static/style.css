@@ -1,0 +1,28 @@
+/* constants, support for light or dark mode */
+:root {
+  --main-bg-color: white;
+  --main-fg-color: #777;
+  --link-color: #428bca;
+}
+
+@media (prefers-color-scheme: dark) {
+:root {
+  --main-bg-color: black;
+  --main-fg-color: #c1c1c1;
+  --link-color: #49a1ec;
+}
+}
+
+/* style ¨*/
+
+body {
+  background-color: var(--main-bg-color);
+  color: var(--main-fg-color);
+}
+
+nav {text-align: center;}
+
+#home_img { width:100px }
+
+a { color: var(--link-color) }
+
