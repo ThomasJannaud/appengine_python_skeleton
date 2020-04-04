@@ -1,7 +1,8 @@
 # Google AppEngine: Minimal skeleton of a Python server
-A minimal Flask server serving static HTML pages that deploys seamlessly to Google AppEngine, no troubleshooting needed. It also boasts a minimal HTML template skeleton in [Jinja](https://jinja.palletsprojects.com/).
+A minimal Flask server serving static HTML pages that deploys seamlessly to Google AppEngine, no troubleshooting needed. It also comes with a minimal HTML template skeleton in [Jinja](https://jinja.palletsprojects.com/).
 
-As of April 2020, GAE runs your server for free as long as you are under a million visits a day or so. You only need to purchase the domain name, and that's optional if you can be content with PROJECTNAME.appspot.com. This github repo doesn't cover this, GAE's instruction are pretty complete for that.
+As of April 2020, GAE runs your server for free as long as you are under a million visits a day or so. You only need to purchase the domain name, and that's optional if you can be content with PROJECTNAME.appspot.com.  
+This skeleton complies with GAE's format although it won't run you through their instructions to set up a GAE's account, the process is well detailed on their page.
 
 # Instructions
 
