@@ -1,6 +1,8 @@
 # Google AppEngine: Minimal skeleton of a Python server
 A minimal Flask server serving static HTML pages that deploys seamlessly to Google AppEngine, no troubleshooting needed. It also comes with a minimal HTML template skeleton in [Jinja](https://jinja.palletsprojects.com/).  
-This skeleton complies with GAE's format although it won't run you through their instructions to set up a GAE's account, the process is well detailed on their page.
+This skeleton complies with GAE's format although it won't run you through their instructions to set up a GAE's project.
+
+See a [live example](https://moonlit-academy-273207.appspot.com) of this template.
 
 ## Price of running on GAE
 [As of April 2020, and purely informative]
@@ -46,11 +48,11 @@ The nice thing about Flask is that you can update your HTML templates or your Py
 
 ## Deploy
 
-You need to have a [GAE account](https://cloud.google.com/appengine) and create a project there.
-Your website will be hosted on https://PROJECTNAME.appspot.com but if you own a domain you can point it to this host.
+You need to have a [GAE account](https://cloud.google.com/appengine) and [create a project](https://console.cloud.google.com/projectcreate) there. It will ask at some point for Billing info but again it is free if you use the app normally, and if you are unsure set a budget (e.g $1 a month) to not have any bad surprise.  
+Your website will be hosted on https://PROJECTID.appspot.com but if you own a domain you can point it to this host.
 
 Follow the instructions as you install gcloud to validate your credentials. Then run
 
-`gcloud app deploy --project PROJECTNAME`
+`gcloud app deploy --project PROJECTID`
 
 to deploy. The setup might take time but once it is ready one command line is enough.
