@@ -9,15 +9,20 @@ Run your server locally. When you are happy with the result, deploy to Google Ap
 
 ## Run locally
 
-Most of this skeleton consists in a minimal Flask server for you to customize.  
+Most of this skeleton consists of a minimal Flask server for you to customize.  
 Edit the webpages in the `Templates/` folder and style them in the `static/` folder.  
-Change the logic in `page_handler.py` to serve more urls.  
+Change the logic in `page_handler.py` to serve more urls or in `main.py` to serve anything else than static pages.  
 
+Install part, one time only.
 ```
 git clone https://github.com/ThomasJannaud/appengine_python_skeleton.git
 python -m venv env
 source env/bin/activate
-pip install  -r requirements.txt
+pip install  -r requirements.txt  # Re-run this if you add libraries
+```
+
+To run, you only need:
+```
 python main.py
 ```
 
@@ -27,7 +32,6 @@ The server is now running on localhost:8080. Just navigate to either one of:
 - localhost:8080/contact
 
 On the next runs, you only need `python main.py`. The nice thing about Flask is that you can update your HTML templates or your Python code and Flask should take the changes into account without restarting the server.
-
 
 
 ## Deploy
